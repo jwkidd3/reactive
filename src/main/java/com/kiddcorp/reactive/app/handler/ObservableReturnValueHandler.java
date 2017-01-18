@@ -1,7 +1,5 @@
 package com.kiddcorp.reactive.app.handler;
 
-import java.util.Vector;
-
 import org.springframework.core.MethodParameter;
 import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.context.request.async.DeferredResult;
@@ -10,7 +8,6 @@ import org.springframework.web.method.support.HandlerMethodReturnValueHandler;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
 import rx.Observable;
-import rx.Observer;
 
 public class ObservableReturnValueHandler implements HandlerMethodReturnValueHandler {
 
